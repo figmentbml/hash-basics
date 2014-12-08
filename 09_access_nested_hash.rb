@@ -24,3 +24,5 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
+p person["address"]["coordinates"][:latitude].to_s
+p person["address"]["coordinates"][:longitude].to_s

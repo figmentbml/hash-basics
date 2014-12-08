@@ -24,3 +24,4 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
+p person["address"].each {|location, actual| puts "#{location} is #{actual}"}
